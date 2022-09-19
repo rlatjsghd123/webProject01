@@ -1,0 +1,94 @@
+@import url(reset.css);
+
+/* sub2.css */
+
+
+/* spot */
+.spot{
+    background: url(../image/careers_visual_img.jpg) no-repeat 50% 0;
+    color: #fff;
+}
+.inner_spot > h2{
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+.inner_spot > p{
+    font-size: 16px;
+    color: #eee;
+}
+.inner_spot > p.path{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    text-align: right;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* faq */
+.faq{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-bottom: 60px;
+}
+
+.faq>p{
+    font-size: 16px;
+    line-height: 45px;
+}
+
+.faq>a{
+    display: block;
+    width: 158px;
+    height: 45px;
+    background: #043285 url(../image/btn_arrow_ico_w.png) no-repeat 90% 50%;
+    color: #fff;
+    font-size: 16px; 
+    text-align: center;
+    line-height: 45px;
+}
+
+/* job */
+
+.job{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.job thead th, .job tbody td{
+    height: 60px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.job thead th{
+    border-top: 1px solid #000;
+    font-size: 18px;
+    background-color: #f3f3f3;
+}
+.job thead th:first-of-type{
+    width: 120px;
+    border-left: none;
+}
+.job thead th:nth-of-type(2){
+    width: 640px;
+}
+.job thead th:last-of-type{
+    width: 380px;
+    border-right: none;
+}
+.job tbody td{
+    border-top: none;
+    font-size: 16px;
+}
+.job tbody td:first-of-type{
+    border-left: none;
+}
+.job tbody td:last-of-type{
+    border-right: none;
+}
+.job tbody tr:last-of-type td{
+    border-bottom: 1px solid #000;
+}
